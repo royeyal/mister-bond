@@ -8,28 +8,28 @@ function setupSplits() {
     gsap.fromTo(
         chars,
         { 
-          y: 100,
-          opacity: 0,
-          rotationX: 180,
-		  transformOrigin: "0% 50% -50",
-          scale: 0,
+	y: 100,
+	opacity: 0,
+	rotationX: 180,
+	transformOrigin: "0% 50% -50",
+	scale: 0,
         },
         {
-          y: 0,
-          opacity: 1,
-          rotationX: 0,
-          stagger: 0.02,
-          scale: 1,
-          duration: 0.2,
-          ease: 'power4.out',
-          scrollTrigger: {
-				trigger: target,
-				//markers: true,
-				start: "top 85%",
-				end: "bottom center",
-				//scrub: true
-			},
-        }
+	y: 0,
+	opacity: 1,
+	rotationX: 0,
+	stagger: 0.02,
+	scale: 1,
+	duration: 0.2,
+	ease: 'power4.out',
+	scrollTrigger: {
+			trigger: target,
+			//markers: true,
+			start: "top 85%",
+			end: "bottom center",
+			//scrub: true
+		},
+	}
       );
   });
 }
