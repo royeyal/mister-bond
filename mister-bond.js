@@ -1,5 +1,3 @@
-gsap.registerPlugin(ScrollTrigger, SplitText);
-
 function setupSplits() {
   const targets = gsap.utils.toArray("p.align-center");
   targets.forEach((target) => {
